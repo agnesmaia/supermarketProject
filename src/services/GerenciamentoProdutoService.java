@@ -17,21 +17,39 @@ public class GerenciamentoProdutoService {
         return produtos;
     }
 
-    public void atualizarProduto(Produto produtoAtualizado) {
+    public void atualizarPrecoProduto(int id, double preco) {
         for (Produto produto : produtos) {
-            if (produto.getId() == produtoAtualizado.getId()) {
-                produto.setQuantidadeEmEstoque(produtoAtualizado.getQuantidadeEmEstoque());
+            if (produto.getId() == id) {
+                produto.setPreco(preco);
                 break;
             }
         }
     }
 
+    public void atualizarEstoqueProduto(int id, int quantidade) {
+        for (Produto produto : produtos) {
+            if (produto.getId() == id) {
+                produto.setQuantidadeEmEstoque(produto.getQuantidadeEmEstoque() + quantidade);
+                break;
+            }
+        }
+    }
+    
     public void removerProduto(int id) {
         produtos.removeIf(produto -> produto.getId() == id);
     }
 
     public void adicionarCategoria(Categoria categoria) {
         categorias.add(categoria);
+    }
+
+    public boolean produtoExiste(int id) {
+        for (Produto produto : produtos) {
+            if (produto.getId() == id) {
+                return true;
+            }
+        }
+        return false;
     }
 
     public List<Categoria> listarCategorias() {
