@@ -18,8 +18,22 @@ public class ProdutoController {
         produtoService.adicionarProduto(produto);
     }
 
-    public void atualizarProduto(Produto produtoAtualizado) {
-        produtoService.atualizarProduto(produtoAtualizado);
+    public void adicionarProduto(Produto produto, double taxa) {
+        Produto produtoComTaxa = new Produto(produto);
+        produtoComTaxa.setPreco(produto.getPreco() * (1 + taxa / 100));
+        produtoService.adicionarProduto(produtoComTaxa);
+    }
+
+    public boolean produtoExiste(int id) {
+        return produtoService.produtoExiste(id);
+    }
+
+    public void atualizarPrecoProduto(int id, double preco) {
+        produtoService.atualizarPrecoProduto(id, preco);
+    }
+
+    public void atualizarEstoqueProduto(int id, int quantidade) {
+        produtoService.atualizarPrecoProduto(id, quantidade);
     }
 
     public void removerProduto(int id) {

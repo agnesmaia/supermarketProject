@@ -1,0 +1,101 @@
+id,nome,categoria,preco
+1,Arroz,Alimento,14.35
+2,Feijao,Alimento,5.46
+3,Macarrao,Alimento,2.98
+4,Detergente,Limpeza,2.09
+5,Esponja,Limpeza,1.05
+6,Refrigerante,Bebida,4.13
+7,Suco,Bebida,2.63
+8,Cafe,Bebida,6.29
+9,Farinha,Alimento,2.52
+10,Desinfetante,Limpeza,4.52
+11,Sabonete,Higiene,1.61
+12,Shampoo,Higiene,10.50
+13,Condicionador,Higiene,10.85
+14,Creme Dental,Higiene,2.28
+15,Papel Higienico,Higiene,7.00
+16,Margarina,Alimento,4.76
+17,Manteiga,Alimento,8.40
+18,Acucar,Alimento,3.15
+19,Sal,Alimento,1.40
+20,Pimenta,Alimento,2.28
+21,Desodorante,Higiene,6.23
+22,Escova de Dentes,Higiene,2.45
+23,Escova de Cabelo,Higiene,8.75
+24,Fio Dental,Higiene,3.33
+25,Enxaguante Bucal,Higiene,9.10
+26,Amaciante,Limpeza,5.53
+27,Sabao em Po,Limpeza,8.40
+28,Sabao Liquido,Limpeza,7.35
+29,Lustra Moveis,Limpeza,5.60
+30,Esfregao,Limpeza,11.13
+31,Escova de Banheiro,Limpeza,4.19
+32,Rodo,Limpeza,4.76
+33,Vassoura,Limpeza,6.13
+34,Panela,Utensilios,24.50
+35,Colher de Pau,Utensilios,3.50
+36,Garrafa Termica,Utensilios,17.50
+37,Prato,Utensilios,7.35
+38,Copo,Utensilios,3.33
+39,Concha,Utensilios,5.25
+40,Garfo,Utensilios,2.24
+41,Faca,Utensilios,3.01
+42,Tesoura,Utensilios,6.86
+43,Aspirador de Po,Eletrodomesticos,105.00
+44,Ferro de Passar,Eletrodomesticos,56.00
+45,Liquidificador,Eletrodomesticos,84.00
+46,Microondas,Eletrodomesticos,210.00
+47,Panela Eletrica,Eletrodomesticos,140.00
+48,Sanduicheira,Eletrodomesticos,49.00
+49,Batedeira,Eletrodomesticos,63.00
+50,Chaleira Eletrica,Eletrodomesticos,42.00
+51,Mouse,Eletronicos,21.00
+52,Teclado,Eletronicos,31.50
+53,Monitor,Eletronicos,315.00
+54,Fone de Ouvido,Eletronicos,49.00
+55,Carregador de Celular,Eletronicos,17.50
+56,Cabo HDMI,Eletronicos,10.50
+57,Controle Remoto,Eletronicos,28.00
+58,Caixa de Som,Eletronicos,105.00
+59,Notebook,Eletronicos,1750.00
+60,Smartphone,Eletronicos,840.00
+61,Bolacha,Alimento,2.45
+62,Chocolate,Alimento,3.49
+63,Bala,Alimento,0.84
+64,Salgadinho,Alimento,4.41
+65,Biscoito,Alimento,2.38
+66,Chips,Alimento,3.50
+67,Granola,Alimento,5.04
+68,Yogurte,Alimento,3.85
+69,Queijo,Alimento,11.13
+70,Presunto,Alimento,8.61
+71,Sabonete Liquido,Higiene,5.53
+72,Loção Hidratante,Higiene,9.80
+73,Perfume,Higiene,52.50
+74,Pente,Higiene,1.75
+75,Creme Facial,Higiene,17.50
+76,Creme para as Maos,Higiene,5.60
+77,Protetor Solar,Higiene,24.50
+78,Esfoliante Facial,Higiene,10.50
+79,Escova de Unhas,Higiene,2.10
+80,Alicate de Unha,Higiene,4.20
+81,Borracha,Papelaria,0.70
+82,Lapis,Papelaria,1.05
+83,Caneta,Papelaria,1.40
+84,Regua,Papelaria,2.10
+85,Caderno,Papelaria,10.50
+86,Agenda,Papelaria,7.00
+87,Grampeador,Papelaria,8.40
+88,Fita Adesiva,Papelaria,1.75
+89,Cola,Papelaria,2.80
+90,Tesoura Escolar,Papelaria,3.85
+91,Agua Mineral,Bebida,0.70
+92,Suco de Laranja,Bebida,2.80
+93,Cerveja,Bebida,4.20
+94,Vinho,Bebida,17.50
+95,Uisque,Bebida,42.00
+96,Vodka,Bebida,35.00
+97,Energetico,Bebida,5.60
+98,Cha,Bebida,2.45
+99,Leite,Bebida,3.15
+100,Azeite,Alimento,14.00

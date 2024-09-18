@@ -15,6 +15,14 @@ public class Produto {
         this.quantidadeEmEstoque = quantidadeEmEstoque;
     }
 
+    public Produto(Produto outro) {
+        this.id = outro.id;
+        this.nome = outro.nome;
+        this.categoria = outro.categoria;
+        this.preco = outro.preco;
+        this.quantidadeEmEstoque = outro.quantidadeEmEstoque;
+    }
+
     public int getId() {
         return id;
     }
@@ -33,6 +41,10 @@ public class Produto {
 
     public int getQuantidadeEmEstoque() {
         return quantidadeEmEstoque;
+    }
+
+    public void setPreco(double preco) {
+        this.preco = preco;
     }
 
     public void setQuantidadeEmEstoque(int quantidadeEmEstoque) {
